@@ -8,8 +8,7 @@ export const sponsorConfig: SponsorConfig = {
 	description: "",
 
 	// 打赏用途说明
-	usage:
-		"您的打赏将用于服务器维护、内容创作和功能开发，帮助我持续提供优质内容。",
+	usage: "打赏功能暂时关闭。",
 
 	// 是否显示打赏者列表
 	showSponsorsList: true,
