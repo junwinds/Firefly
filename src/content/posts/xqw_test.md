@@ -1,5 +1,5 @@
 ---
-title: xqw_test.md
+title: xqw_test
 published: 2026-08-18
 description: ''
 image: ''
