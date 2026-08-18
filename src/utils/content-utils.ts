@@ -3,6 +3,14 @@ import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import { getCategoryUrl } from "@utils/url-utils";
 
+// 取"更新或发布"中较新的时间戳；不可解析的日期（Invalid Date）兜底为 0，
+// 保证排序始终稳定、不会因 NaN 比较而崩溃。
+function getPostTimestamp(data: { updated?: Date; published: Date }): number {
+	const date = new Date(data.updated ?? data.published);
+	const time = date.getTime();
+	return Number.isNaN(time) ? 0 : time;
+}
+
 // // Retrieve posts and sort them by publication date
 async function getRawSortedPosts() {
 	const allBlogPosts = await getCollection("posts", ({ data }) => {
@@ -14,10 +22,12 @@ async function getRawSortedPosts() {
 		if (a.data.pinned && !b.data.pinned) return -1;
 		if (!a.data.pinned && b.data.pinned) return 1;
 
-		// 如果置顶状态相同，则按发布日期排序
-		const dateA = new Date(a.data.published);
-		const dateB = new Date(b.data.published);
-		return dateA > dateB ? -1 : 1;
+		// 如果置顶状态相同，则按发布/更新时间排序（取两者中较新的）
+		// 注意：published 支持带时间（如 2026-08-18T10:30:00），
+		// 同日发布的文章靠时间戳区分先后；仅写日期则都视为当天零点、次序不定。
+		const timestampA = getPostTimestamp(a.data);
+		const timestampB = getPostTimestamp(b.data);
+		return timestampB - timestampA;
 	});
 	return sorted;
 }
