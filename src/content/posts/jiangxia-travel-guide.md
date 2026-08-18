@@ -1,6 +1,6 @@
 ---
 title: 武汉江夏：城南宝库，好玩又好吃的一天
-published: 2026-08-18
+published: 2026-08-18 17:46:11
 description: 从中山舰的历史沧桑到梁子湖的湖光山色，从非遗鱼丸到河鲜盛宴，带你解锁武汉江夏最值得玩、最值得吃的地方。
 image: /assets/images/posts/liangzi-lake.png
 tags: ["武汉", "江夏", "旅行", "美食"]

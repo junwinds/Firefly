@@ -1,6 +1,6 @@
 ---
 title: 武汉马场角路的好味道：这家 24 小时营业的牛肉拌面，带火了一条街
-published: 2026-08-18
+published: 2026-08-18 18:07:51
 description: 藏在范湖地铁站旁马场角横路的"初代网红"面馆，一碗麻辣牛肉拌面如何从一家小店带火整条街。
 image: /assets/images/posts/yuyanmei-noodle-shop.png
 tags: ["武汉", "美食", "探店", "面食"]

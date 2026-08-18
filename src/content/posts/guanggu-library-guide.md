@@ -1,6 +1,6 @@
 ---
 title: 武汉光谷图书馆开馆了！入馆、办证、借书全攻略
-published: 2026-08-18
+published: 2026-08-18 17:49:31
 description: 24万册藏书、1300多个座位、七大功能区，光谷图书馆7月18日起试运营。这份攻略讲清楚怎么预约入馆、怎么办读者证、怎么借书。
 image: /assets/images/posts/guanggu-library-exterior.png
 tags: ["武汉", "光谷", "图书馆", "攻略"]

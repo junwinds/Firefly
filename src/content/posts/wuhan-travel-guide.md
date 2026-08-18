@@ -1,6 +1,6 @@
 ---
 title: 武汉游玩推荐：两天一夜的江城打卡指南
-published: 2026-08-18
+published: 2026-08-18 17:33:04
 description: 黄鹤楼、东湖、长江大桥……整理一份武汉必打卡景点清单，附交通和门票攻略。
 image: /assets/images/posts/yellow-crane-tower.png
 tags: ["武汉", "旅行", "攻略"]

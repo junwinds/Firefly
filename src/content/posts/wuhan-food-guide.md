@@ -1,6 +1,6 @@
 ---
 title: 武汉寻味记：那些绕不开的特色小吃
-published: 2026-08-18
+published: 2026-08-18 17:34:04
 description: 从清晨的热干面到深夜的藕汤，带你吃遍武汉最地道的小吃和最值得一去的店子。
 image: /assets/images/posts/hot-dry-noodles.png
 tags: ["武汉", "美食", "探店", "旅行"]
